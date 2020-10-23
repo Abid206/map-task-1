@@ -1,0 +1,6 @@
+int findFrequency(vector<int> v, int x){
+    
+    map<long long, int> m;
+    for(auto u : v) m[u]++;
+    return m[x];
+}
